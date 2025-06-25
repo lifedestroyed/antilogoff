@@ -1,0 +1,13 @@
+name: AntiLogOff
+version: '1.0'
+main: com.lifedestroyed.alo.Main
+api-version: '1.21'
+prefix: [ ALO-v1 ]
+authors: [ lifedestroyed ]
+description: Anti Log Off in PVP. (Like AntiRelog)
+website: https://github.com/lifedestroyed/
+commands:
+  alo:
+    description: Reload the plugin config
+  aloconfig:
+    description: Show current config settings
