@@ -2,12 +2,19 @@
 #Guide: teamld.github.io/alo/
 
 settings:
-  timer-duration: 15        # Timer Duration (in seconds)
-  punish-on-logoff: true    # Whether to punish when leaving
-  punishment: "kill"        # Options: kill, damage, ban, none
+  timer-duration: 15
+  punish-on-logoff: true
+  punishment: "kill"  # kill/damage/ban/none
+  bossbar-color: "RED"  # RED, PINK, BLUE, GREEN, YELLOW, PURPLE, WHITE, CUSTOM_RGB
+
+  # For CUSTOM_RGB color
+  bossbar-rgb:
+    red: 255
+    green: 0
+    blue: 0
 
 messages:
-  timer-start: "&#FB1700&lT&#FB1C00&lh&#FB2000&le &#FC2500&lb&#FC2A00&la&#FC2F00&lt&#FC3300&lt&#FC3800&ll&#FD3D00&le &#FD4100&lh&#FD4600&la&#FD4B00&ls &#FD5000&lb&#FE5400&le&#FE5900&lg&#FE5E00&lu&#FE6200&ln&#FE6700&l! &#FF6C00&lE&#FF7100&lx&#FF7100&li&#FF6C00&lt &#FE6700&li&#FE6200&ls &#FE5E00&lp&#FE5900&lr&#FE5400&lo&#FD5000&lh&#FD4B00&li&#FD4600&lb&#FD4100&li&#FD3D00&lt&#FC3800&le&#FC3300&ld &#FC2F00&lf&#FC2A00&lo&#FC2500&lr %time% &#FB2000&ls&#FB1C00&le&#FB1700&lc"
-  timer-end: "&#2BFB00&lT&#29F401&lh&#26ED02&le &#24E603&lP&#21DF04&lv&#1FD704&lP &#1DD005&lt&#1AC906&li&#18C207&lm&#16BB08&le&#13B409&lr &#11AD0A&lh&#0EA60B&la&#0C9F0C&ls &#0A970C&le&#07900D&lx&#05890E&lp&#02820F&li&#007B10&lr&#02820F&le&#05890E&ld&#07900D&l. &#0A970C&lY&#0C9F0C&lo&#0EA60B&lu &#11AD0A&lc&#13B409&la&#16BB08&ln &#18C207&ll&#1AC906&le&#1DD005&la&#1FD704&lv&#21DF04&le &#24E603&ln&#26ED02&lo&#29F401&lw&#2BFB00&l."
-  actionbar-text: "&#FB1700&lL&#FB2000&le&#FC2900&lf&#FC3300&lt&#FD3C00&l: %time% &#FD4500&ls&#FD4E00&le&#FE5700&lc&#FE6100&l. &#FF6A00&l| &#FF7300&lD&#FF6A00&lo&#FE6100&ln&#FE5700&l'&#FD4E00&lt &#FD4500&ll&#FD3C00&le&#FC3300&la&#FC2900&lv&#FB2000&le&#FB1700&l!"
-  punished-message: "&#FB1700&lY&#FB1C00&lo&#FB2100&lu &#FC2600&lh&#FC2B00&la&#FC3000&lv&#FC3500&le &#FD3A00&lb&#FD3F00&le&#FD4400&le&#FD4900&ln &#FD4E00&lp&#FE5300&lu&#FE5800&ln&#FE5D00&li&#FE6200&ls&#FE6700&lh&#FF6C00&le&#FF7100&ld &#FF7100&lf&#FF6C00&lo&#FE6700&lr &#FE6200&ll&#FE5D00&lo&#FE5800&lg&#FE5300&lg&#FD4E00&li&#FD4900&ln&#FD4400&lg &#FD3F00&lo&#FD3A00&lu&#FC3500&lt &#FC3000&li&#FC2B00&ln &#FC2600&lP&#FB2100&lv&#FB1C00&lP&#FB1700&l!"
+  combat-start: "&cYou entered combat! Don't log out for %time% seconds."
+  combat-end: "&aCombat timer expired. You can now log out safely."
+  bossbar-text: "&4Combat: %time%s | Don't log out!"
+  punished-message: "&cYou were punished for combat logging!"

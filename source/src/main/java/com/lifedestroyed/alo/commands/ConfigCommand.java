@@ -1,21 +1,21 @@
 package com.lifedestroyed.alo.commands;
 
-import org.bukkit.command.Command;
-import org.bukkit.command.CommandExecutor;
-import org.bukkit.command.CommandSender;
 import com.lifedestroyed.alo.Main;
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandSender;
 
-public class ConfigCommand implements CommandExecutor {
+public class ConfigCommand {
     private final Main plugin;
 
-    public ConfigCommand(Main plugin) { this.plugin = plugin; }
+    public ConfigCommand(Main plugin) {
+        this.plugin = plugin;
+    }
 
-    @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
-        sender.sendMessage("§6===== ALO Config =====");
-        sender.sendMessage("§eTimer: §f" + plugin.getConfig().getInt("settings.timer-duration") + " сек");
+        sender.sendMessage("§6===== AntiLogOff Config =====");
+        sender.sendMessage("§eTimer Duration: §f" + plugin.getConfig().getInt("settings.timer-duration") + " seconds");
         sender.sendMessage("§ePunishment: §f" + plugin.getConfig().getString("settings.punishment"));
-        sender.sendMessage("§eActionBar Text: §f" + plugin.getConfig().getString("messages.actionbar-text"));
+        sender.sendMessage("§eBossBar Color: §f" + plugin.getConfig().getString("settings.bossbar-color"));
         return true;
     }
 }
