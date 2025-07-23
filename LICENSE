@@ -1,21 +1,46 @@
-MIT License
+LIFE DESTROYED LICENSE  
 
-Copyright (c) 2025 life destroyed
+Version 1.0  
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Copyright (c) 2025 Life Destroyed  
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+This license strictly prohibits any use, copying, distribution, modification, or interaction with the source code, documentation, or materials related to this project without explicit written permission from the copyright holder.  
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+#1. Restrictions
+
+Prohibited Actions:
+  - Copy, download, fork, clone, modify, or use the code for any purpose (personal, commercial, educational, etc.).  
+  - Distribute the code, derivatives, or related works (including online publication or sharing with third parties).  
+  - Access the project’s APIs, data, or functionality.  
+  - Use the project’s name, logos, or branding without permission.  
+
+Exceptions:
+  No exceptions.  
+
+#2. Copyright Notice
+All rights to the code belong solely to Life Destroyed. Violations of this license may result in legal action under applicable copyright laws.  
+
+#3. Disclaimer
+The code is provided “AS IS”. The author is not responsible for any losses, issues, or “life destruction” caused by the use or inability to use the code.  
+
+#4. Termination
+Any violation of this license automatically revokes your rights to interact with the project.  
+
+How to Apply This License:  
+
+Add a LICENSE file to your GitHub repository’s root.
+
+Include a clear notice in your README (example below).
+
+Example README Notice:  
+WARNING  
+This code is protected by the LIFE DESTROYED LICENSE.  
+Copying, using, or distributing this project is prohibited without written permission from Life Destroyed.  
+
+Important Notes:  
+
+Public visibility on GitHub does not grant usage rights.
+
+Consider legal tools (e.g., DMCA takedowns) to enforce violations.
+
+For fully private code, use GitHub’s private repositories or alternative platforms.
